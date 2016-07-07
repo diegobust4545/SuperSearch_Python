@@ -1,2 +1,2 @@
-# SuperSearch_Python
-Python web app to further practice writing Postgresql files
+# SuperSearch
+A web app written in Python to exercise my skills using Postgresql

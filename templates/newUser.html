@@ -1,0 +1,22 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+        <!-- insert the page content here -->
+        <h1>Create Account</h1>
+        <form method="post" action="/newUser">
+    <p>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" size="40" </p>
+    <p>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" size="40" /></p>
+    <p>
+    <label for="zipcode">Zipcode:</label>
+    <input type="integer" id="zipcode" name="zipcode" size="40" /></p>
+
+    <p><input type="submit" value="Register" name="submit" /></p>
+  </form>
+{% endblock %}
